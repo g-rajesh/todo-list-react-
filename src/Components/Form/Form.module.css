@@ -1,0 +1,31 @@
+.Form{
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.Form h3{
+  text-align: center;
+  font-size: 21px;
+}
+
+.Form form input{
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #333;
+  width: 60%;
+  padding: 5px 10px;
+}
+
+
+.Form form button{
+  width: calc(40% - 30px);
+  margin-left: 10px;
+  padding: 7px 0;
+  border: none;
+  outline: none;
+  border: 1px solid #00796b;
+  background-color: #00796b;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
